@@ -1,0 +1,26 @@
+{
+  "name": "abbreviated-etherscan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "node /server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindol8/abbreviated-etherscan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindol8/abbreviated-etherscan/issues"
+  },
+  "homepage": "https://github.com/mindol8/abbreviated-etherscan#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "web3": "^1.6.1"
+  }
+}
